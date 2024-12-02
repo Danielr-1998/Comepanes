@@ -5,6 +5,7 @@ import TopList from "./components/TopList/TopList";
 import BgImage from "./assets/2.png";
 import Banner from "./components/Banner/Banner";
 import OurServices from "./components/OurServices/OurServices";
+import Whastapp from "./components/Whastapp/Whastapp";
 
 const bgStyle = {
   backgroundImage: `url(${BgImage})`,
@@ -21,6 +22,8 @@ const App = () => {
         <Hero />
         <OurServices />
       </div>
+      {/* El componente WhatsApp debe estar fuera del contenedor de contenido */}
+      <Whastapp />
     </div>
   );
 };

@@ -15,9 +15,7 @@ const Navbar = () => {
         {/* Menu section */}
         <div className="flex justify-center items-center gap-10">
           <ul className="gap-8 hidden sm:flex">
-            <li className="hover:border-b-2 border-primary uppercase">Home</li>
-            <li className="hover:border-b-2 border-primary uppercase">Menu</li>
-            <li className="hover:border-b-2 border-primary uppercase">Donde Encontrarnos</li>
+            
           </ul>
           
         </div>
