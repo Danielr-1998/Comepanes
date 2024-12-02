@@ -16,3 +16,31 @@
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
   }
 }
+
+/* Estilo personalizado para el scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #F97316 #f1f1f1; /* Firefox: color de la barra y el fondo */
+}
+
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Ancho del scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color:#F97316; /* Color del pulgar del scrollbar */
+  border-radius: 10px; /* Bordes redondeados */
+  border: 2px solid #f1f1f1; /* Borde sutil alrededor del pulgar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color del fondo del track */
+  border-radius: 10px; /* Bordes redondeados en el track */
+}
+
+/* Elimina las flechas del scrollbar en navegadores como Chrome y Safari */
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+}

@@ -6,7 +6,7 @@ const Modal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed top-[70px] left-1/2 transform -translate-x-1/2 bg-white p-6 rounded-lg shadow-lg w-full sm:w-3/4 md:w-1/2 lg:w-1/3 z-50 max-h-[80vh] overflow-hidden">
+    <div className="fixed top-[70px] left-1/2 transform -translate-x-1/2 bg-white p-6 rounded-lg shadow-lg w-full sm:w-3/4 md:w-1/2 lg:w-1/3 z-50 max-h-[80vh] overflow-auto custom-scrollbar">
       {/* Header del Modal */}
       <div className="flex justify-between items-center mb-4">
         <button onClick={onClose} className="text-xl font-bold">X</button>
