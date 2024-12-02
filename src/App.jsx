@@ -19,8 +19,6 @@ const App = () => {
       <div className="min-h-screen bg-white/50 backdrop-blur-3xl">
         <Navbar />
         <Hero />
-        <TopList />
-        <Banner />
         <OurServices />
       </div>
     </div>

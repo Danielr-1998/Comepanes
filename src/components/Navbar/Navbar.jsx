@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* logo section */}
         <div>
           <p className="text-3xl lg:text-4xl font-semibold">
-            FOOD<span className="text-primary">EAT</span>
+            COME<span className="text-primary">PANES</span>
           </p>
         </div>
         {/* Menu section */}
@@ -17,13 +17,9 @@ const Navbar = () => {
           <ul className="gap-8 hidden sm:flex">
             <li className="hover:border-b-2 border-primary uppercase">Home</li>
             <li className="hover:border-b-2 border-primary uppercase">Menu</li>
-            <li className="hover:border-b-2 border-primary uppercase">About</li>
+            <li className="hover:border-b-2 border-primary uppercase">Donde Encontrarnos</li>
           </ul>
-          {/* login section */}
-          <div className="flex gap-4 items-center">
-            <img src={Profile} alt="" className="w-10 rounded-full " />
-            <IoIosArrowDown />
-          </div>
+          
         </div>
       </div>
     </div>
